@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		22717C271ECBE99C0096EB7B /* SimpleSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22717C261ECBE99C0096EB7B /* SimpleSectionViewController.m */; };
 		22717C2A1ECBF00A0096EB7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22717C291ECBF00A0096EB7B /* TableViewController.m */; };
+		22717C2D1ECC25210096EB7B /* ArraySectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22717C2C1ECC25210096EB7B /* ArraySectionController.m */; };
 		227448851ECA9A21002A311F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227448841ECA9A21002A311F /* main.m */; };
 		227448881ECA9A21002A311F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227448871ECA9A21002A311F /* AppDelegate.m */; };
 		2274488B1ECA9A21002A311F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274488A1ECA9A21002A311F /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		22717C261ECBE99C0096EB7B /* SimpleSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleSectionViewController.m; sourceTree = "<group>"; };
 		22717C281ECBF00A0096EB7B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		22717C291ECBF00A0096EB7B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		22717C2B1ECC25210096EB7B /* ArraySectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraySectionController.h; sourceTree = "<group>"; };
+		22717C2C1ECC25210096EB7B /* ArraySectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraySectionController.m; sourceTree = "<group>"; };
 		227448801ECA9A21002A311F /* TapTableViewCellToExtend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTableViewCellToExtend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227448841ECA9A21002A311F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		227448861ECA9A21002A311F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				227448A31ECADB84002A311F /* TableViewCellData.m */,
 				22717C251ECBE99C0096EB7B /* SimpleSectionViewController.h */,
 				22717C261ECBE99C0096EB7B /* SimpleSectionViewController.m */,
+				22717C2B1ECC25210096EB7B /* ArraySectionController.h */,
+				22717C2C1ECC25210096EB7B /* ArraySectionController.m */,
 				227448891ECA9A21002A311F /* ViewController.h */,
 				2274488A1ECA9A21002A311F /* ViewController.m */,
 				2274488C1ECA9A21002A311F /* Main.storyboard */,
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22717C2D1ECC25210096EB7B /* ArraySectionController.m in Sources */,
 				2274488B1ECA9A21002A311F /* ViewController.m in Sources */,
 				227448881ECA9A21002A311F /* AppDelegate.m in Sources */,
 				227448851ECA9A21002A311F /* main.m in Sources */,

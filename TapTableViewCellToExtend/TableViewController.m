@@ -9,6 +9,7 @@
 #import "TableViewController.h"
 #import "TableViewCellData.h"
 #import "SimpleSectionViewController.h"
+#import "ArraySectionController.h"
 
 @interface TableViewController ()
 
@@ -32,9 +33,11 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    NSArray *data = [NSArray arrayWithObjects:@"This",@"is",@"a",@"test",@"sample", nil];
+    
     SimpleSectionViewController *simpleView = [[SimpleSectionViewController alloc] initWithViewController:self];
-    SimpleSectionViewController *simpleView2 = [[SimpleSectionViewController alloc] initWithViewController:self];
-    self.retractableControllers = [NSArray arrayWithObjects:simpleView,simpleView2, nil];
+    ArraySectionController *arrayView = [[ArraySectionController alloc] initWithArray:data viewController:self];
+    self.retractableControllers = [NSArray arrayWithObjects:simpleView,arrayView, nil];
 }
 
 - (void)didReceiveMemoryWarning {
